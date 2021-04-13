@@ -1,9 +1,9 @@
 import React from 'react';
 import App from './App';
-import {shallow} from "enzyme";
+import { render } from '@testing-library/react';
 
 describe('App', function () {
   it('renders successfully', () => {
-    shallow(<App />);
+    render(<App />);
   });
 });
